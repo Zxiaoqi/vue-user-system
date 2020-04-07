@@ -36,6 +36,7 @@ export default {
     };
   },
   methods:{
+    //筛选
     filterBy(customers,value){
       return customers.filter(val=>{
         //match方法检索指定值，并返回匹配结果的数组（对象）
